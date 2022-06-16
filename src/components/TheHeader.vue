@@ -63,6 +63,10 @@ inset -.2rem -.2rem .5rem var(--white);
 
     font-size: 75px;
     font-weight: bold;
+    color:#000000;
+    
+
+    text-shadow: 2px 2px 2px #999999, -2px -2px 2px #ffffff;
 
     @media(max-width: 1600px) {
         position: relative;
@@ -70,10 +74,13 @@ inset -.2rem -.2rem .5rem var(--white);
 
 }
 
+.header__container {
+    padding: 40px;
+}
+
 .tab {
 
     margin: 40px 45px 20px auto;
-    grid-column: 3 / 4;
     grid-row: 1 / 2;
     width: 54rem;
     height: 4rem;
@@ -87,7 +94,7 @@ inset -.2rem -.2rem .5rem var(--white);
             flex-direction: column;
             height: 27rem;
             width: 93%;
-            grid-column: 0;
+            
 
     }
 
@@ -130,7 +137,7 @@ inset -.2rem -.2rem .5rem var(--white);
 
         @media(max-width: 950px) {
             margin: 0.7rem;
-            width: 90%;
+            width: 82%;
             height: 3.6rem;
 
         }
