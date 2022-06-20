@@ -188,32 +188,32 @@ inset -.2rem -.2rem .5rem var(--white);
 
         @media(max-width: 950px) {
             margin-top: 0.7rem;
-            width: 42rem;
+            width: 87%;
             height: 3.8rem;
 
         }
         @media(max-width: 750px) {
             margin: 0.7rem 0em;
-            width: 50rem;
+            width: 85%;
             height: 3.8rem;
         }
 
         @media(max-width: 450px) {
             margin: 0.7rem 0em;
-            width: 20rem;
+            width: 78%;
             height: 3.8rem;
         }
 
         @media(max-width: 375px) {
             margin: 0.7rem 0em;
-            width: 17rem;
+            width: 75%;
             height: 3.8rem;
         }
 
 
         @media(max-width: 350px) {
             margin: 0.7rem 0em;
-            width: 14rem;
+            width: 70%;
             height: 3.8rem;
         }
 
@@ -221,7 +221,7 @@ inset -.2rem -.2rem .5rem var(--white);
 }
 
 #tab-1:checked ~ .tab__color {
-    transform: translateX(0);
+    transform: translateX(0.3rem);
     transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 
     @media(max-width: 950px) {
@@ -232,7 +232,7 @@ inset -.2rem -.2rem .5rem var(--white);
 
 }
 #tab-2:checked ~ .tab__color {
-    transform: translateX(10.7rem);
+    transform: translateX(11rem);
     transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 
     @media(max-width: 950px) {
@@ -242,7 +242,7 @@ inset -.2rem -.2rem .5rem var(--white);
     }
 }
 #tab-3:checked ~ .tab__color {
-    transform: translateX(21.4rem);
+    transform: translateX(21.7rem);
     transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 
     @media(max-width: 950px) {
@@ -252,7 +252,7 @@ inset -.2rem -.2rem .5rem var(--white);
     }
 }
 #tab-4:checked ~ .tab__color {
-    transform: translateX(32.4rem);
+    transform: translateX(32.7rem);
     transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 
     @media(max-width: 950px) {
@@ -262,7 +262,7 @@ inset -.2rem -.2rem .5rem var(--white);
     }
 }
 #tab-5:checked ~ .tab__color {
-    transform: translateX(43.1rem);
+    transform: translateX(43.4rem);
     transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 
     @media(max-width: 950px) {
