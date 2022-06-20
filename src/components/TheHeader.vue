@@ -72,11 +72,27 @@ inset -.2rem -.2rem .5rem var(--white);
     @media(max-width: 1600px) {
         position: relative;
         font-size: 75px;
+        
+        
     }
 
     @media(max-width: 1820px) {
         transition: all .5s ease;
         font-size: 75px;
+        padding-bottom: 20px;
+    }
+
+    @media(max-width: 450px) {
+        transition: all .5s ease;
+        font-size: 55px;
+        padding: 0px 15px 20px auto;
+        text-align: center;
+    }
+
+    @media(max-width: 350px) {
+        
+        font-size: 40px;
+        
     }
 
 }
@@ -100,7 +116,16 @@ inset -.2rem -.2rem .5rem var(--white);
             margin: 20px auto;
             flex-direction: column;
             height: 27rem;
-            width: 93%;
+            width: 100%;
+            
+
+    }
+
+    @media(max-width: 450px) {
+            margin: 10px auto;
+            flex-direction: column;
+            height: 27rem;
+            width: 100%;
             
 
     }
@@ -129,6 +154,24 @@ inset -.2rem -.2rem .5rem var(--white);
 
         }
 
+        @media(max-width: 450px) {
+            margin: 20px auto;
+            padding: 5px 0px 5px 30px;
+            font-size: 2.4rem;
+            justify-content:left;
+            font-size: 2rem;
+            
+        }
+
+        @media(max-width: 350px) {
+            margin: 20px auto;
+            padding: 5px 0px 5px 30px;
+            font-size: 2.5rem;
+            justify-content:left;
+            font-size: 1.5rem;
+            
+        }
+
   
 
         &:hover { color: var(--primary); }
@@ -139,21 +182,39 @@ inset -.2rem -.2rem .5rem var(--white);
         position: absolute;
         height: 3.4rem;
         width: 10.2rem;
-        margin-left: .3rem;
         border-radius: .8rem;
         box-shadow: $inner-shadow;
         pointer-events: none;
 
         @media(max-width: 950px) {
             margin-top: 0.7rem;
-            width: 82%;
+            width: 42rem;
             height: 3.8rem;
 
         }
         @media(max-width: 750px) {
-          margin: 0.7rem 0em;
-          width: 75%;
-          height: 3.8rem;
+            margin: 0.7rem 0em;
+            width: 50rem;
+            height: 3.8rem;
+        }
+
+        @media(max-width: 450px) {
+            margin: 0.7rem 0em;
+            width: 20rem;
+            height: 3.8rem;
+        }
+
+        @media(max-width: 375px) {
+            margin: 0.7rem 0em;
+            width: 17rem;
+            height: 3.8rem;
+        }
+
+
+        @media(max-width: 350px) {
+            margin: 0.7rem 0em;
+            width: 14rem;
+            height: 3.8rem;
         }
 
     }

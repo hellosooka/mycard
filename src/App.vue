@@ -6,7 +6,7 @@ export default {
 
   components: {
     'the-header': TheHeader,
-    
+  
   }
 }
 </script>
